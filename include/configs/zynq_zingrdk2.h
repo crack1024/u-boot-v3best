@@ -20,8 +20,6 @@
 
 #define PHYS_SDRAM_1_SIZE (1024 * 1024 * 1024)
 
-#define CONFIG_NAND_ZYNQ
-
 #define CONFIG_ZYNQ_SERIAL_UART1
 #define CONFIG_PHY_ADDR	7
 
@@ -33,7 +31,6 @@
 #define CONFIG_SYS_NO_FLASH
 
 #define CONFIG_MMC
-/*#define CONFIG_ZYNQ_SPI*/
 
 #include <configs/zynq_common.h>
 
